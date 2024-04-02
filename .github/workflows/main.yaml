@@ -20,9 +20,9 @@ jobs:
           distribution: 'adopt'
 
       - name: Build du projet
-        run: |
+        run: ./gradlew build
           # Votre commande de build ici
 
       - name: Tests
-        run: |
+        run: ./gradlew test
           # Vos commandes de tests ici
